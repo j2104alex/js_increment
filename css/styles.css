@@ -1,0 +1,39 @@
+.contenedor-fondo{
+    position: absolute;
+    z-index: -2;
+    background-image: url(../imagenes/fondo.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+}
+
+.titulo{
+    text-shadow: #10ac17 1px 0 10px;
+}
+.operation-bg{
+    background-color: white;
+    width: fit-content;
+    font-family: 'Brush Script MT', cursive;
+    font-size: larger;
+    border-radius: 10%; 
+}
+
+.button{
+    background-color: #10ac17;
+    border-bottom: .5rem solid #025a1f;
+    color: black;
+    width: 3rem;
+    height: 1.5;
+    border-radius: 10%;  
+}
+
+.resultado{
+    align-items: center;
+}
+.result_css{
+    width: 5rem;
+    height: .5;
+    border-radius: 10%; 
+    box-shadow: 10px 5px 5px #10ac17;
+}
